@@ -25,9 +25,9 @@ Uninstall the contextual menu items and the temporary files in AppData using
 Uninstall.bat
 ```
 
-## Usage ?
+## Usage
 Right click on the folder you want to build. It will create a Pbo in the parent folder.
-If you want to pack without binarising, shift + right click on the folder.
+If you want to build without binarising, shift + right click on the folder.
 
 ## Author
 
