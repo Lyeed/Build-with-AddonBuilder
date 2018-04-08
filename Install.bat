@@ -5,7 +5,7 @@ rem Your AddonBuilder Path
 set "AddonBuilder=C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\AddonBuilder\AddonBuilder.exe"
 rem ###########################
 
-xcopy "%~dp0data\*.bat" "%appdata%\AddonBuilderContextualMenu" /Y /S /I /Q
+xcopy "%~dp0data\*" "%appdata%\AddonBuilderContextualMenu" /Y /S /I /Q
 
 reg add "HKCU\Software\Classes\Directory\shell\AddonBuilderContextual" /VE /D "Build with AddonBuilder" /F
 reg add "HKCU\Software\Classes\Directory\shell\AddonBuilderContextual" /v "Icon" /D "%AddonBuilder%,0" /F
