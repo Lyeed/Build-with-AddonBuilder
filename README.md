@@ -1,22 +1,28 @@
+![Screenshot](image.png)
+
 # Build-with-AddonBuilder
-I always find that AddonBuilder was missing the possibilty to build from the contextual menu without launching the application.
-Pbo manager has this possibility and I wanted it for Addonbuilder.
+I always find that AddonBuilder was missing the possibility to build from the contextual.
+PboManager has this possibility and I wanted it for Addonbuilder since Bohemia has changed the way Pbo are build
 
-Here we go !
+## Installation
+If AddonBuilder is not installed on the common folder
+```
+C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\AddonBuilder) you have to change the path
+```
+Steps to update my path :
+1. Open Install.bat with any text editor
+2. Line 5 put your AddonBuilder executable path
+3. Save and close
 
-## Usage
+My path is correct :
+Launch Install.bat
 
-### Install
-If AddonBuilder is not installed on the common folder (C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\AddonBuilder) you have to change the path line 3.
+## Uninstallation
+Launch Uninstall.bat
 
-Launch Build_With_AddonBuilder-install.bat
-
-### Uninstall
-Launch Build_With_AddonBuilder-uninstall.bat
-
-### How does it work ?
+## How does it work ?
 Right click on the folder you want to build. It will create a Pbo in the parent folder.
-If you want to pack only without binarise & co, shift right click the folder.
+If you want to pack without binarising, shift + right click on the folder.
 
 ## Author
 
