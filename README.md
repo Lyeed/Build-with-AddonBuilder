@@ -1,4 +1,4 @@
-![Screenshot](data/image.png)
+![Screenshot](pictures/image.png)
 
 # Build-with-AddonBuilder
 I always found that AddonBuilder was missing the possibility to build from the contextual menu.
