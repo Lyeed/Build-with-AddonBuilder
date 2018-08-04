@@ -19,14 +19,24 @@ Run as administrator
 ```
 .\uninstall-BuildWithAB.ps1
 ```
+
 ## Usage
 Right click on any folder you want to build into PBO.
 
-Options enabled
-- bin
-- clear
+### Build options
+- [x] binarize (default)
+- [ ] packonly
+- [x] clear
+- [x] temp (default)
+- [ ] prefix
+- [ ] project
+- [ ] sign
+- [x] include
+- [x] cfgconvert (default)
+- [x] filebank (default)
+- [x] dssignfile (default)
 
-## Link types
+### Link types
 To add or remove types to your build session, edit types_included.txt in the data folder then reinstall via the scripts.
 
 Refer to [AddonBuilder's documentation](https://community.bistudio.com/wiki/Addon_Builder) for formating the string.
