@@ -13,7 +13,7 @@ $Private:AddonBuilder = "PATH\TO\Steam\SteamApps\common\Arma 3 Tools\AddonBuilde
 #
 $Private:AddonBuilderDir = [System.IO.Path]::GetDirectoryName($Private:AddonBuilder)
 
-Copy-Item "$PSScriptRoot\data\types_included.txt" -Destination $Private:AddonBuilderDir
+Copy-Item "$PSScriptRoot\data\types_included.txt" -Destination $Private:AddonBuilderDir -Force
 
 New-Item -Path Registry::HKEY_CLASSES_ROOT\Directory\shell\AddonBuilder –Value 'Build into PBO with AddonBuilder' -Force
 New-ItemProperty -Path Registry::HKEY_CLASSES_ROOT\Directory\shell\AddonBuilder -Name 'Icon' -PropertyType String -Value "$Private:AddonBuilder,0"
